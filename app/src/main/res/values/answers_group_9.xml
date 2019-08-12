@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers9">
+        <item>No. While they are both sexually transmitted infections, they are very different viruses.  Most women who get HPV will clear it on their own.</item>
+        <item>Yes. Women with HIV have an increased risk for HPV and cervical cancer because their bodies do not clear the virus as quickly as women without HIV. Being on HIV medications may help HIV-positive women lower their risk of HPV and cervical cancer, but women with HIV should be screened more frequently, every year.</item>
+        <item>Yes. Because they are distinct viruses, a woman can be infected with one and not the other.</item>
+        <item>Yes. Because they are distinct viruses, a woman can be infected with one and not the other. However, if a woman is HIV positive, it may increase her risk of contracting HPV due to a weakened immune system.</item>
+    </string-array>
+    <string-array name="answers_group_9" />
+</resources>

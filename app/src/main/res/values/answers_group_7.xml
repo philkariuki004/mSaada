@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers7">
+        <item>The HPV vaccine provides women with safe, effective, long-lasting protection from cancers caused by HPV. HPV vaccination does not work, however, to treat HPV infection.</item>
+        <item>Women should get the HPV vaccination before sexual debut. The vaccine is most effective if administered before sexual activity is started. Usually, girls receive the vaccine between ages 11-12, but can get it as early as 9 years old and into their early 20s. Kenya is working to make HPV vaccination available in health facilities.</item>
+        <item>The HPV vaccine should be available at local clinics, possibly within schools during selected days, or during outreach/campaign days led by local health officials. Kenya is working to make HPV vaccinations available, and we think it should be in clinics within the next year.</item>
+        <item>Yes. Boys of similar age (11-12yo) should be vaccinated. While cervical cancer is not a concern for men, other HPV-related cancers such as penile, anal, or oral cancers are possible. </item>
+    </string-array>
+    <string-array name="answers_group_7" />
+</resources>

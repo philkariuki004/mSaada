@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs10">
+        <item>Does cervical cancer have a cure?</item>
+        <item>Does HPV have a cure?</item>
+        <item>Do all women who have HPV get cervical cancer?</item>
+        <item>How long does it take cervical cancer to develop?</item>
+        <item>What increases a woman’s risk of HPV and cervical cancer?</item>
+        <item>Should a woman tell her husband her HPV status?</item>
+        <item>Why must a woman not have sex for a month after treatment?</item>
+    </string-array>
+    <string-array name="faqs_group_10" />
+</resources>

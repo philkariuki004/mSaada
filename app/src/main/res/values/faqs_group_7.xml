@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs7">
+        <item>Why should a woman get the HPV vaccination?</item>
+        <item>At what age should a woman get the HPV vaccination? </item>
+        <item>How can a woman get the HPV vaccination?</item>
+        <item>Should men get the HPV vaccination?</item>
+    </string-array>
+    <string-array name="faqs_group_7" />
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs11">
+        <item>What causes cervical cancer?</item>
+        <item>Does having HPV mean that you have Cervical Cancer?</item>
+        <item>How does HPV cause cervical cancer?</item>
+        <item>Is cervical cancer caused by sex?</item>
+        <item>Do any family planning methods (contraceptives) cause cervical cancer or HPV?</item>
+        <item>Does having sex while a woman is on her period cause cervical cancer?</item>
+        <item>Can cervical cancer be caused by a healthcare provider touching a women’s cervix (for example during childbirth)?</item>
+        <item>Can eating certain foods or soil cause cervical cancer or HPV? </item>
+        <item>What are the early signs of cervical cancer?</item>
+        <item>What are the symptoms of cervical cancer?</item>
+        <item>What are the symptoms of HPV?</item>
+        <item>Will you die if you are HPV positive?</item>
+        <item>Will you die if you have cervical cancer?</item>
+        <item>Why do some women die of cervical cancer?</item>
+        <item>Does HPV infection or treatment cause miscarriages?</item>
+        <item>Does HPV infection or cervical cancer affect fertility?</item>
+        <item>Does cervical cancer screening or treatment affect fertility?</item>
+        <item>How is HPV transmitted (how does it spread)?</item>
+        <item>How can HPV transmission be decreased or prevented?</item>
+        <item>If HPV is transmitted during sex, should women stop having sex?</item>
+        <item>If men are not treated for HPV and have sex with women, will they get HPV?</item>
+        <item>Does male circumcision decrease risk of HPV transmission?</item>
+        <item>If a woman has HPV and is pregnant, will her child be born with HPV? </item>
+        <item>How can a woman know if she has cervical cancer?</item>
+        <item>How can a woman know if she has HPV?</item>
+        <item>What is being looked for when cervical cancer screening is completed?</item>
+        <item>Why should women be screened for cervical cancer?</item>
+        <item>Why is it important to inspect the vagina/cervix during cervical cancer screening?</item>
+        <item>Does early detection of cervical cancer increase chance of survival?</item>
+        <item>How often does a woman need to be screened for cervical cancer?</item>
+        <item>Is cervical cancer screening painful?</item>
+        <item>Is it necessary to use a speculum for screening?</item>
+        <item>Can a woman screen herself for cervical cancer?</item>
+        <item>Does testing positive for HPV mean you have cervical cancer?</item>
+        <item>Can cervical cancer be treated? If so, how?</item>
+        <item>Can HPV be treated? If so how?</item>
+        <item>Are medications used to treat cervical cancer?</item>
+        <item>Does HPV treatment affect daily activities such as farming or riding a motorbike?</item>
+        <item>How often does a woman need to be treated for HPV or cervical cancer?</item>
+        <item>Can cervical cancer advance to a point which it cannot be treated?</item>
+        <item>Can a hysterectomy be used to treat HPV?</item>
+        <item>How often does an HPV positive woman need to be treated?</item>
+        <item>Can a woman be re-infected with HPV if she has been treated?</item>
+        <item>Why should a woman get the HPV vaccination?</item>
+        <item>At what age should a woman get the HPV vaccination? </item>
+        <item>How can a woman get the HPV vaccination?</item>
+        <item>Should men get the HPV vaccination?</item>
+        <item>Are men affected by cervical cancer? If not, why?</item>
+        <item>Do men need to screen for cervical cancer?</item>
+        <item>Are men born with HPV?</item>
+        <item>Do all men have HPV?</item>
+        <item>Are men affected by HPV? If so, how?</item>
+        <item>Can men know their HPV status?</item>
+        <item>Can men be treated for HPV?</item>
+        <item>Are HIV and HPV the same?</item>
+        <item>Are HIV and cervical cancer related?</item>
+        <item>If a woman is HIV negative, can she be HPV positive?</item>
+        <item>If a woman if HIV positive, can she be HPV negative?</item>
+        <item>Does cervical cancer have a cure?</item>
+        <item>Does HPV have a cure?</item>
+        <item>Do all women who have HPV get cervical cancer?</item>
+        <item>How long does it take cervical cancer to develop?</item>
+        <item>What increases a woman’s risk of HPV and cervical cancer?</item>
+        <item>Should a woman tell her husband her HPV status?</item>
+        <item>Why must a woman not have sex for a month after treatment?</item>
+    </string-array>
+    <string-array name="faqs_group_11" />
+</resources>

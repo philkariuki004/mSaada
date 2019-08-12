@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers6">
+        <item>Yes. Advanced cervical cancer can be treated with surgery, radiation, or chemotherapy. Pre-cancerous lesions can be treated with LEEP or cryotherapy. </item>
+        <item>HPV infections or pre-cancerous lesions can be treated by destroying the infected or abnormal cells with LEEP or cryotherapy.</item>
+        <item>Yes. Chemotherapy can be used for treatment of advanced cervical cancer. However, once HPV infection is treated with cryotherapy, medication is not required for further treatment.</item>
+        <item>Women should avoid riding a motorbike and doing very heavy work for the first few days after treatment. Women should avoid sex for the first four weeks after treatment. These will all reduce the risk of bleeding and infection.</item>
+        <item>A single treatment for HPV works to prevent cervical cancer for almost all women.  For women who already have cancer, the frequency of treatment will be based on stage of cancer and eligibility for different treatment options. Women should talk with their doctor to determine the most appropriate option.</item>
+        <item>Yes. Late stage cervical cancer can be difficult to control, especially if it spreads to other areas of a women’s body.</item>
+        <item>No. A hysterectomy is the removal of the uterus (womb) and is not necessary for HPV infection. This is an option for treatment of advanced cervical cancer.</item>
+        <item>A single treatment for HPV works to prevent cervical cancer for almost all women.</item>
+        <item>The treatments for HPV infection reduce the risk for re-infection, but yes, women can be re-infected with HPV.  This is why it’s important to get regular screening.</item>
+    </string-array>
+    <string-array name="answers_group_6" />
+</resources>

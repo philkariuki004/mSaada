@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewClient1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="27.Do you currently use contraceptives?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radioGroup4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:layout_constraintVertical_bias="0.029">
+
+            <RadioButton
+                android:id="@+id/radio_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:buttonTint="@android:color/holo_blue_dark"
+                />
+
+            <RadioButton
+                android:id="@+id/radio_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:buttonTint="@android:color/holo_blue_dark"
+                />
+            <RadioButton
+                android:id="@+id/radio_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't know"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:buttonTint="@android:color/holo_blue_dark"
+                />
+            <RadioButton
+                android:id="@+id/radio_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not sexually active"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:buttonTint="@android:color/holo_blue_dark"
+                />
+
+            <RadioButton
+                android:id="@+id/radio_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Declined to answer"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:buttonTint="@android:color/holo_blue_dark"
+
+                />
+
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutpage3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <Button
+                android:id="@+id/buttonclientback"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientback"
+                android:layout_alignParentLeft="true"
+                android:onClick="onClickBack"
+                />
+
+            <Button
+                android:id="@+id/buttonclientnext"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientnext"
+                android:layout_alignParentRight="true"
+                android:onClick="onClickNext"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

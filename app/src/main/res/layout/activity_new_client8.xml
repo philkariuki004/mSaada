@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewClient1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_add"
+            android:contentDescription="logo"
+            android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:lines="2"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="12. What year were you last screened for cervical cancer? If the patient does not know, enter 9999."
+        android:textSize="16sp"
+         />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@android:color/black"
+         />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="13. Which type of screening was done?"
+        android:textSize="16sp"
+         />
+
+        <CheckBox
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@android:color/darker_gray"
+
+
+             />
+
+
+
+        <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="9. Were any of those screening results abnormal? This could also be called a positive result."
+        android:textSize="16sp"
+         />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Positive" />
+
+        <RadioButton
+            android:id="@+id/radio_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Negative" />
+
+        <RadioButton
+            android:id="@+id/radio_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Don't Know" />
+    </RadioGroup>
+
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutpage3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <Button
+                android:id="@+id/buttonclientback"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientback"
+                android:layout_alignParentLeft="true"
+                android:onClick="onClickBack"
+                />
+
+            <Button
+                android:id="@+id/buttonclientnext"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientnext"
+                android:layout_alignParentRight="true"
+                android:onClick="onClickNext"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

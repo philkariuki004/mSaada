@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs1">
+        <item>What causes cervical cancer?</item>
+        <item>Does having HPV mean that you have cervical cancer?</item>
+        <item>How does HPV cause cervical cancer?</item>
+        <item>Is cervical cancer caused by sex?</item>
+        <item>Do any family planning methods (contraceptives) cause cervical cancer or HPV?</item>
+        <item>Does having sex while a woman is on her period cause cervical cancer?</item>
+        <item>Can cervical cancer be caused by a healthcare provider touching a women’s cervix (for example during childbirth)?</item>
+        <item>Can eating certain foods or soil cause cervical cancer or HPV? </item>
+    </string-array>
+    <string-array name="faqs_group_1" />
+</resources>

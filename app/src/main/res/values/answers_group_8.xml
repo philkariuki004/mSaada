@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers8">
+        <item>No. Men are not affected by cervical cancer because they do not have a uterus/cervix. Men are, however, affected by other HPV-related cancers such as penile, anal, and oral cancers. These are much more uncommon than cervical cancer, which is why men are not screened for HPV.</item>
+        <item>No. They are not at risk for cervical cancer. The HPV-related diseases that men have are so uncommon that screening is not necessary.</item>
+        <item>No. While HPV infection is very common for both men and women, they are not born with the infection. HPV infection is acquired through sex with an infected individual.</item>
+        <item>No. While men are usually carriers of the infection until it is cleared by their body, not all men have HPV at all times.</item>
+        <item>Yes. Both men and women can be affected by HPV. HPV-related cancers are possible for both sexes. These are much more uncommon than cervical cancer, which is why men are not screened for HPV.</item>
+        <item>No. Currently, there is no recommended HPV screening protocol for men. HPV-related cancers in men are much less common than cervical cancer, which is why men are not screened for HPV.</item>
+        <item>No. While there is a treatment for women, there is not currently an approved treatment for men. Instead, the infection is usually cleared on its own. </item>
+    </string-array>
+
+    <string-array name="answers_group_8" />
+</resources>

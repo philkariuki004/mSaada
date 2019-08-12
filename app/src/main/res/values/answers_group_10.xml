@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers10">
+        <item>cervical cancer can be managed with treatment if detected early. The ability to cure cervical cancer is based on stage. If in an earlier stage, surgery can be curative. </item>
+        <item>No. There is no cure for the virus. Treatment with cryotherapy gets rids of most of the HPV and destroys the cells that HPV would turn into cancer. Most women only need one treatment for HPV</item>
+        <item>No. For most women, the infection is naturally cleared from the body. However, some women may develop cervical cancer.</item>
+        <item>Invasive cervical cancer can take between 10-15 years after initial infection with HPV to develop. Earlier stage cancerous or pre-cancerous lesions may develop in a shorter amount of time. </item>
+        <item>Lack of HPV vaccination, unprotected sex, multiple partners and other infectious diseases such as HIV can lead to an increase in risk of HPV and cervical cancer.</item>
+        <item>The decision to tell her husband is ultimately up to the woman. In many cases that we have seen, husbands can be very supportive, providing funds and other help to obtain treatment. Often, men have a lot of questions about HPV, and want to better understand how to help their wives get treatment, recover and prevent reinfection. We can help answer husbands’ questions. Some women may not feel comfortable talking to their husbands, if they fear violence or concerns about promiscuity. Sometimes, alternative social support from friends or family can help women understand and access treatment.</item>
+        <item>Women can have bleeding or infection at the site on the cervix where they have been treated if they have sex too soon after treatment. They are also at increased risk for re-infection with HPV while the cervix is healing, so they should avoid intercourse during that time</item>
+    </string-array>
+    <string-array name="answers_group_10" />
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers1">
+        <item>The main cause of cervical cancer is Human Papillomavirus (HPV). This sexually transmitted infection, if left untreated, may result in cervical cancer after many years of infection. However, this is not always the case. Often times, the body is able to get rid of the infection on its own. In fact, most women with HPV do not end up getting cervical cancer.</item>
+        <item>Having an HPV infection does not mean that you have cervical cancer. However, if the infection remains untreated, you will be at higher risk of developing cervical cancer.</item>
+        <item>After many years in the female body, HPV causes the normal cells on the surface of the cervix to change into pre-cancerous cells. If the body is not able to get rid of these cells or if they are not removed/destroyed by treatment, they can develop into cervical cancer. </item>
+        <item>No. Although HPV is a sexually-transmitted infection, cervical cancer is not directly caused by sex. Almost all sexually active women will never develop cervical precancer or cancer. Rather, a woman would have to be infected with HPV and the virus would have to remain in her system for a long period of time.</item>
+        <item>No. Contraceptives do not cause cervical cancer or HPV infection. Some research shows extended use of oral contraceptives (5+ years) may increase risk, but that is likely related to lower condom use (which reduces the risk of HPV acquisition). In fact, IUD use may decrease risk.</item>
+        <item>No. cervical cancer is caused by long-term infection with HPV. A woman cannot get cervical cancer from sex while on her period.</item>
+        <item>No. The act of touching the cervix does not cause cervical cancer. While there may be risk of other types of infections if the provider is not operating in a sterile environment or with sterile instruments, there is no chance of contracting HPV since it is only spread through sexual contact of infected bodily fluids or skin-to-skin gentile contact.</item>
+        <item>No. HPV is spread through sexual contact with an infected individual.</item>
+    </string-array>
+    <string-array name="answers_group_1" />
+</resources>

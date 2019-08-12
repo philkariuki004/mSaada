@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs9">
+        <item>Are HIV and HPV the same?</item>
+        <item>Are HIV and cervical cancer related?</item>
+        <item>If a woman is HIV negative, can she be HPV positive?</item>
+        <item>If a woman if HIV positive, can she be HPV negative?</item>
+    </string-array>
+    <string-array name="faqs_group_9" />
+</resources>

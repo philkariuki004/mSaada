@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers4">
+        <item>HPV is a sexually transmitted disease. It is spread through sexual contact with an infected person. This can include penetrative sex (anal or vaginal) or close skin-to-skin genital contact.</item>
+        <item>HPV vaccination in younger girls or women, protected sex (condom), and being in relationships with few partners are the best ways to decrease chances of infection. </item>
+        <item>As with most sexually transmitted infections, preventative/protective measures can be taken(condom use) to decrease chances of transmission while still allowing women to engage in sex.</item>
+        <item>There is no treatment for HPV infection in men, as it is usually cleared by the body itself. HPV is not transmitted with every sexual act and protective measures such as condom use can be pursued. Condom use, however, does not ensure complete protection from transmission. For women treated for HPV, they should delay intercourse to reduce the risk of re-infection.</item>
+        <item>Yes. Similar to HIV, the male foreskin is where HPV infects or lives. If circumcision is completed, the chance of transmission is lowered, but not completely reduced. Condom use is critical and HPV vaccination (which is recommended between the ages of 9 and 21 for men, and between 9 and 26 for women) is best if possible.</item>
+        <item>No.</item>
+    </string-array>
+    <string-array name="answers_group_4" />
+</resources>

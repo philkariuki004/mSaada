@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewClient1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_add"
+            android:contentDescription="logo"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="15. Have you had any previous treatment for cervical cancer/precancer?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radioGroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:layout_constraintVertical_bias="0.008">
+
+            <RadioButton
+                android:id="@+id/radio_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:buttonTint="@android:color/holo_blue_dark"
+                />
+
+            <RadioButton
+                android:id="@+id/radio_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:buttonTint="@android:color/holo_blue_dark"
+                />
+
+            <RadioButton
+                android:id="@+id/radio_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Don't Know"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:buttonTint="@android:color/holo_blue_dark"
+                />
+        </RadioGroup>
+
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutpage3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <Button
+                android:id="@+id/buttonclientback"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientback"
+                android:layout_alignParentLeft="true"
+                android:onClick="onClickBack"
+                />
+
+            <Button
+                android:id="@+id/buttonclientnext"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientnext"
+                android:layout_alignParentRight="true"
+                android:onClick="onClickNext"
+                />
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewClient1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_add"
+            android:contentDescription="logo"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:maxLength="300"
+            android:text="Can you provide directions to your location for the home visit notification ?"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:inputType="textShortMessage"
+            android:text=""
+            android:maxLength = "100"
+            android:textCursorDrawable="@null"
+            android:backgroundTint="@android:color/black"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutpage3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <Button
+                android:id="@+id/buttonclientback"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientback"
+                android:layout_alignParentLeft="true"
+                android:onClick="onClickBack"
+                />
+
+            <Button
+                android:id="@+id/buttonclientnext"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientnext"
+                android:layout_alignParentRight="true"
+                android:onClick="onClickNext"
+                />
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

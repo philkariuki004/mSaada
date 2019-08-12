@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs4">
+        <item>How is HPV transmitted (how does it spread)?</item>
+        <item>How can HPV transmission be decreased or prevented?</item>
+        <item>If HPV is transmitted during sex, should women stop having sex?</item>
+        <item>If men are not treated for HPV and have sex with women, will they get HPV?</item>
+        <item>Does male circumcision decrease risk of HPV transmission?</item>
+        <item>If a woman has HPV and is pregnant, will her child be born with HPV? </item>
+    </string-array>
+    <string-array name="faqs_group_4" />
+</resources>

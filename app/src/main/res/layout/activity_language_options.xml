@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LanguageOptions"
+
+    >
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/msaadascreen"
+
+
+        android:contentDescription="logo"
+        android:scaleType="center" />
+
+    <Button
+        android:id="@+id/englbtn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="330dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/english"
+        android:onClick="onClickEnglish"
+
+        android:text="ENGLISH"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/swabtn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="330dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/kiswahili"
+        android:text="KISWAHILI"
+
+        android:onClick="OnClickSwahili"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/luobtn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="330dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/luo"
+        android:text="LUO"
+
+        android:onClick="OnClickLuo"
+
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/donebuttonhomelang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/screening_back_button"
+        android:onClick="OnClickDone"
+
+        />
+
+
+
+</LinearLayout>

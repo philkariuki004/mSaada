@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs5">
+        <item>How can a woman know if she has cervical cancer?</item>
+        <item>How can a woman know if she has HPV?</item>
+        <item>What is being looked for when cervical cancer screening is completed?</item>
+        <item>Why should women be screened for cervical cancer?</item>
+        <item>Why is it important to inspect the vagina/cervix during cervical cancer screening?</item>
+        <item>Does early detection of cervical cancer increase chance of survival?</item>
+        <item>How often does a woman need to be screened for cervical cancer?</item>
+        <item>Is cervical cancer screening painful?</item>
+        <item>Is it necessary to use a speculum for screening?</item>
+        <item>Can a woman screen herself for cervical cancer?</item>
+        <item>Does testing positive for HPV mean you have cervical cancer?</item>
+    </string-array>
+    <string-array name="faqs_group_5" />
+</resources>

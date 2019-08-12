@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".FAQActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:background="@drawable/questions_logo"
+        android:contentDescription="logo"
+        android:scaleType="center"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="511dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+
+
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAll"
+                android:text="All Questions"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickCauses"
+                android:text="Causes of HPV Infection and Cervical Cancer" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickSymptoms"
+                android:text="Impacts" />
+
+            <!--<Button-->
+            <!--android:id="@+id/button28"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:text="Complications"-->
+            <!--android:onClick="onClickComplications"/>-->
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickTransmission"
+                android:text="Transmission" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickScreening"
+                android:text="Screening" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickTreatment"
+                android:text="Treatment" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickVaccination"
+                android:text="HPV Vaccination" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickMen"
+                android:text="Men" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickHIV"
+                android:text="HIV-Related" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onClickOther"
+                android:text="Other-General" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/questionsback"
+        android:onClick="onClickHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

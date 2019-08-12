@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".MainActivity" >
+
+    <!-- Login progress -->
+
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="372dp"
+        android:layout_height="650dp"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/msaadahome"
+
+            android:contentDescription="logo"
+            android:scaleType="center" />
+
+
+        <!-- For ALL buttons, change id and onClick-->
+
+        <Button
+            android:id="@+id/walkthrough"
+            style="?android:textAppearanceSmall"
+            android:layout_width="330dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/screening_info_new_home"
+            android:onClick="onClickScreening"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/new_patient"
+            style="?android:textAppearanceSmall"
+            android:layout_width="330dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/add_new_home"
+            android:textStyle="bold"
+            android:onClick="OnClickAddClient"
+            />
+
+        <Button
+            android:id="@+id/faqs"
+            style="?android:textAppearanceSmall"
+            android:layout_width="330dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/questions_new_home"
+            android:onClick="onClickFAQS"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:id="@+id/search_existing"
+            style="?android:textAppearanceSmall"
+            android:layout_width="330dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/search_new_home"
+            android:textStyle="bold" />
+
+
+
+
+
+        <Button
+            android:id="@+id/logout"
+            style="?android:textAppearanceLarge"
+            android:layout_width="328dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/logoutbtn"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

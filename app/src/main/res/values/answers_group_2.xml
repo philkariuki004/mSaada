@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers2">
+        <item>The early signs of cervical cancer can be detected by pap test (screening). These signs are usually precancerous lesions on the surface of the cervix, and can only be seen through a microscope. A woman usually does not show signs of cervical cancer in its earlier stages. As it advances, woman may notice unusual bleeding or discharge, such as after sex. Also, pain during sex is possible as well as pelvic pain, weight loss, fatigue, or leg swelling/pain that is not equal on both sides.</item>
+        <item>A woman may not show signs of cervical cancer in its earlier stages. As it advances, woman may notice unusual bleeding or discharge, such as after sex. Also, pain during sex is possible, as well as pelvic pain, weight loss, fatigue, or a single swollen leg.</item>
+        <item>The types of HPV that cause cervical cancer do not usually cause any symptoms. Most people do not know they have it. Some HPV types cause warts, but these types do not cause cervical cancer.</item>
+        <item>Being HPV positive is not a death sentence. HPV is the most common sexually transmitted infection. Many people’s bodies are able to clear the infection within a relatively short time period. However, if the infection persists and is left untreated, it can cause problems. Getting an HPV diagnosis means that you have the opportunity for treatment, which can reduce your risk for cancer and for re-infection.</item>
+        <item>Having cervical cancer is not automatically a death sentence. cervical cancer is usually treatable, especially if detected early. These tests are screening for HPV, however, and do not mean that you would have cervical cancer.</item>
+        <item>As the cancer becomes more advanced (spreads beyond cervical tissue), it is harder to treat. If the cancer advances too far, it can lead to complications, such as bleeding, pain and difficulty urinating. If left too long or untreated, women can die from cervical cancer.</item>
+        <item>HPV infection does not cause miscarriage.  Screening using self-collection does not cause miscarriage or impact the pregnancy. However, treatment should be delayed until after pregnancy. cervical cancer itself does not cause miscarriage, but sometimes treatment for cervical cancer may disrupt pregnancy.</item>
+        <item>HPV infection does not cause infertility.  Screening using self-collection and treatment with cryotherapy do not cause infertility. cervical cancer itself does not cause infertility, but sometimes treatment for cervical cancer may prevent women from getting pregnant in the future.</item>
+        <item>There is some chance that treatment can affect a woman’s fertility, because treatment may include removing the womb, or giving medication or radiation that decrease the ability to become pregnant. </item>
+    </string-array>
+    <string-array name="answers_group_2" />
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs6">
+        <item>Can cervical cancer be treated? If so, how?</item>
+        <item>Can HPV be treated? If so how?</item>
+        <item>Are medications used to treat cervical cancer?</item>
+        <item>Does HPV treatment affect daily activities such as farming or riding a motorbike?</item>
+        <item>How often does a woman need to be treated for HPV or cervical cancer?</item>
+        <item>Can cervical cancer advance to a point which it cannot be treated?</item>
+        <item>Can a hysterectomy be used to treat HPV?</item>
+        <item>How often does an HPV positive woman need to be treated?</item>
+        <item>Can a woman be re-infected with HPV if she has been treated?</item>
+    </string-array>
+    <string-array name="faqs_group_6" />
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NewClient1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_add"
+            android:contentDescription="logo"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/textViewprov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:maxLength="30"
+            android:text="1. Provider Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+        <Spinner
+            android:id="@+id/provider"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="visible"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:entries="@array/providers"
+            />
+
+        <TextView
+            android:id="@+id/textViewscreen"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:maxLength="30"
+            android:textStyle="bold"
+            android:text="2. Screening Location"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Spinner
+            android:id="@+id/screening_location"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="visible"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:entries="@array/screeninglocation"
+
+            />
+
+
+
+            <TextView
+                android:id="@+id/textViewccNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:maxLength="130"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="3. CCC Number (Leave Empty if Not Applicable)"
+                android:textSize="18sp"/>
+
+
+
+        <EditText
+                android:id="@+id/editTextcc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:inputType="textShortMessage"
+                android:text=""
+                android:maxLength = "100"
+                android:backgroundTint="@android:color/black"
+                android:textCursorDrawable="@null"
+                />
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+             >
+
+            <Button
+                android:id="@+id/buttonclientback"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientback"
+                android:layout_alignParentLeft="true"
+                android:onClick="onClickBack"
+                />
+
+            <Button
+                android:id="@+id/buttonclientnext"
+                android:layout_width="130dp"
+                android:layout_height="106dp"
+                android:background="@drawable/addclientnext"
+                android:layout_alignParentRight="true"
+                android:onClick="onClickNext"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

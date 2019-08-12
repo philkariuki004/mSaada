@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "faqs2">
+        <item>What are the early signs of cervical cancer?</item>
+        <item>What are the symptoms of cervical cancer?</item>
+        <item>What are the symptoms of HPV?</item>
+        <item>Will you die if you are HPV positive?</item>
+        <item>Will you die if you have cervical cancer?</item>
+        <item>Why do some women die of cervical cancer?</item>
+        <item>Does HPV infection or treatment cause miscarriages?</item>
+        <item>Does HPV infection or cervical cancer affect fertility?</item>
+        <item>Does cervical cancer screening or treatment affect fertility?</item>
+    </string-array>
+    <string-array name="faqs_group_2" />
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "answers5">
+        <item>Women can be screened for cervical cancer through a pap test, visual inspection with acetic acid (VIA) or HPV test, which will all detect early signs of cervical cancer.  If women have any symptoms of cancer, she can go to a clinic to get an exam to detect cancer.</item>
+        <item>HPV can be detected by taking an HPV test, which is then evaluated on a machine in a laboratory.</item>
+        <item>The presence of HPV or abnormal cells that could mean precancerous lesions.</item>
+        <item>Screening for cervical cancer identifies women who have an increased risk of developing cancer before they actually have cancer.  These women can get simple treatments that reduce or remove their risk of cancer. For the very few women who already have cancer, screening increases the chances of catching cancer in its early stages which is easier to treat. </item>
+        <item>While it may be invasive and somewhat uncomfortable for a healthcare provider to inspect the vagina/cervix during an exam, it is important to visualize and collect cells from the area for testing.</item>
+        <item>Yes. Early stage cancer is much easier to treat. Screening does not usually detect early cervical cancer, but rather signs that women may be at risk of developing cancer. </item>
+        <item>If a woman screens negative for cervical cancer, she should screen again after 5 years. While this may seem like a long time, the speed of cervical cancer development is slow enough to allow this time period. Women with HIV have a higher risk of getting HPV or developing pre-cancer, so they should be screened every year.</item>
+        <item>Screening may be painful for some women. However, self-testing may offer a less painful means for testing. It does not require a pelvic exam, and women can successfully complete it on their own.</item>
+        <item>No. Self-testing for the presence of HPV is possible.</item>
+        <item>Yes. Self-testing for the presence of HPV is possible.</item>
+        <item>No. However, it is important to be treated after a positive diagnosis as to limit the risk of cervical cancer.</item>
+    </string-array>
+    <string-array name="answers_group_5" />
+</resources>
